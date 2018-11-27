@@ -15,6 +15,6 @@ function BoardMember(name, homeState, training) {
     return "You will see great things from Scuber."
   }
   this.sayHi = function() {
-    `Hi, my name is ${self.name}. I am from ${self.homestate}, and I was trained in ${self.training}.`
+    return `Hi, my name is ${self.name}. I am from ${self.homestate}, and I was trained in ${self.training}.`
   }
 }
